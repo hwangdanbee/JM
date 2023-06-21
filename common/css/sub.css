@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* 공통 */
+.sub_sec_cont{width: 100%; padding:100px 0; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/sub1-2.jpg); background-size: cover; background-position: 50% 50%; position: relative;}
+.sub_sec_cont .sub_title_group{text-align: center;}
+.sub_sec_cont .sub_title_group h2{color:rgba(255,255,255,0.8); font-weight:normal;}
+.sub_sec_cont .sub_title_group h1{font-size:4em; color:#4b9bff; font-family: 'Noto Sans KR', sans-serif; text-align: center; margin:15px 0;}
+.sub_sec_cont .sub_title_group p{font-size:1.2em; color: #fff;font-family: 'Noto Sans KR', sans-serif; text-align: center; }
+.sub_sec_cont .sub_title_group ul{font-size: 0; margin-top: 38px;}
+.sub_sec_cont .sub_title_group ul li{display: inline-block; width: 160px; height: 30px; background-color: #5e889e; margin: 0 20px; border-radius: 4px;}
+.sub_sec_cont .sub_title_group ul li a{display: block; line-height: 30px; font-size: 16px; color: #fff;}
+.sub_sec_cont .sub_title_group ul li:hover{background-color: #999;}
+.sub_sec_cont .sub_title_group ul li:hover a{color: #755562;}
+
+#sub_article_wrap{position: relative; width: 100%; min-width: 1200px;}
+#sub_article_wrap .sub_article{position:relative; width:1200px; margin: 0 auto; display:table;}
+#sub_article_wrap .sub_article .sub_menu{display:table-cell; vertical-align:top; width:20%; max-width:200px;}
+#sub_article_wrap .sub_article .sub_menu .sub_menu_t{background: #13196d; color: #fff; font-size:2em; font-family: "NotoSans-Bold", sans-serif; padding:40px 20px; padding-top:80px;}
+#sub_article_wrap .sub_article .sub_menu .sub_menu_t p{font-size:0.6em; font-family: "NotoSans-Medium", sans-serif; margin-top:5px; opacity:0.5;}
+
+#sub_article_wrap .sub_article .sub_menu .list-group a.menubox{transition:All 0.2s ease; -webkit-transition:All 0.2s ease; -o-transition:All 0.2s ease; -ms-transition:All 0.2s ease; background:#f5f5f5; display: block; border-bottom: 1px solid #d5d5d5; border-left: 1px solid #d5d5d5; padding: 25px 20px; font-size: 15px;color: #555; text-decoration: none;font-weight: bold; border-right: 1px solid #d5d5d5;}
+#sub_article_wrap .sub_article .sub_menu .list-group a.menubox:hover{border-left:6px solid rgba(0,0,0,0.1);}
+#sub_article_wrap .sub_article .sub_menu .list-group a.menubox.active{color: #666; border-left:6px solid #13196d;}
+
+#sub_article_wrap .sub_article .sub_con_wrap{float: left; width: 1000px;}
+#sub_article_wrap .sub_article .sub_con_wrap .title{width: 103px; height: 50px; border-bottom: 1px solid #ccc;}
+#sub_article_wrap .sub_article .sub_con_wrap .title .bs-component{position: relative; width: 1000px; margin: 0 auto;}
+
+#sub_article_wrap .sub_article .sub_contents{display:table-cell; vertical-align:top; padding:30px;}
+#sub_article_wrap .sub_article .sub_contents .title2{border-bottom: 1px solid #eee; margin-bottom:30px;}
+#sub_article_wrap .sub_article .sub_contents .title2 .sub_title{color:#000; font-size:1.4em; border-bottom:3px solid #13196d; padding:15px; font-family: "NotoSans-Medium", sans-serif; display: inline-block;}
+
+#sub_article_wrap .sub_article .sub_contents .contents .text-center{text-align: center; margin-bottom: 30px; margin-top: 20px;}
+#sub_article_wrap .sub_article .sub_contents .contents .text-center .checkbox-inline a {font-size: 18px;}
+#sub_article_wrap .sub_article .sub_contents .mt50 {width: 100%; display: inline-flex; justify-content: flex-end;} 
+/* 공통 end */
+
+.form-control {height: 30px;line-height: 30px; background-color: #fff; border: 1px solid #dfdfdf; border-radius: 2px; padding: 0px 6px;}
+.sub_contents h1{margin-bottom:30px; font-size:2.2em; color:#13196d; font-family:'Noto Sans KR', sans-serif;}
+.sub_contents p{font-size:1.2em; color: #333;  font-family: 'Noto Sans KR', sans-serif; margin-bottom:15px;}
+.sub_contents p:last-child{margin-bottom:0;}
+.sub_contents .contents .default_gallery{font-size: 10pt;padding: 0 5px;color: #666; display: inline-block;}
+.sub_contents .contents .pd0 {padding: 0px !important;}
+.sub_contents .contents .input-group-btn button{background-color: #fff; border: 1px solid #ccc; cursor: pointer; border-radius: 2px;background-color: #22287a; color: #fff;}
+.sub_contents .contents .input-group-btn button:hover{background-color:#454b9f; border: 1px solid #ccc; cursor: pointer; color: #fff;}
+.sub_contents .default_gallery_list a {color: #666;font-size: 16px; text-align: center;}
+.sub_contents .default_gallery_list .text-center{text-align: center;}
+.sub_contents .default_gallery_list .text-center .inline {display: inline-block;float: left;}
+.sub_contents .default_gallery_list .text-center .mt20 {margin-top: 20px !important;}
+.btn-sm{vertical-align: middle; height: 30px;}
+
+/* view */
+h2{padding: 0px 0 0; color: #13196d;}
+hr{background-color: #ccc; height: 1px; border: 0;}
+.table {font-size: 10pt;padding: 0px;border-top: 2px solid #666;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding: 8px;line-height: 1.42857143;vertical-align: top; border-top: 1px solid #ddd;}
+.ftext a{color: #444;}
+.ftext span{font-weight: bold; color: #333;}
+
+@media all and (max-width:1201px) {
+	
+}
+
+@media all and (max-width:760px) {
+	#sub_article_wrap .sub_article .sub_menu {display: none;}
+	#sub_article_wrap{min-width: 100%;}
+	#sub_article_wrap .sub_article {width: 100%;}
+	#sub_article_wrap .sub_article .sub_contents {width: 100%;}
+	#sub_article_wrap .sub_article .sub_contents {padding: 30px;height: 100%;}
+	#sub_article_wrap .sub_article .sub_contents .contents .text-center > img {width: 100%; height: 100%;}
+	#sub_article_wrap .sub_article .sub_contents .mt50 {}
+	#sec_01 .port .slides>.slides-container>li>.main-slide-text {padding: 125px 0;}
+	
+	.sub_sec_cont .sub_title_group > h1 {font-size: 45px !important;}
+	.sub_sec_cont .sub_title_group p {display: none;}
+	.sub_sec_cont{padding: 130px 0;}
+	.sub_contents .default_gallery_list .text-center .inline {width: 100%;}
+	.sub_contents > h1 {margin: 40px 0 20px 0px; font-size: 28px;}
+	.sub_contents > p {margin: 30px 0 0px 0px;}
+	.grid3 > li{width: 33.3% !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
